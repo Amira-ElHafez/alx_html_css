@@ -8,6 +8,22 @@ body {
     margin: 0;
 }
 
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto
+}
+
+article {
+    overflow-y: auto;
+    flex: 1;
+}
+
+aside{
+    overflow-y: auto;
+    flex: 2;
+}
+
 header{
     background-color: #7e5265;
     color: white;
